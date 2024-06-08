@@ -1,0 +1,94 @@
+.all{
+margin: auto;
+width: 70%;
+}
+.mini{
+  margin: auto;
+width: 50%;
+width: 500px;
+background-color: aliceblue;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 20px;
+height: 400px;
+}
+input{
+  display: block;
+  height: 25px;
+  width: 300px;
+  border-radius:10px ;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(8, 96, 96);
+  
+}
+.input:hover{
+  border: none;
+  background-color: grey;
+}
+p{
+  font-family: "Montserrat";
+}
+label{
+  font-family:"Montserrat";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+span{
+  font-family:"Montserrat";
+}
+.title, .heading{
+  font-size: 40px;
+  color: rgb(8, 96, 96);
+  margin-bottom: 0px;
+  font: "Montserrat";
+  margin: auto;
+  width: 90%;
+}
+.bio{
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  margin-top: 8px;
+}
+.T_H{
+  margin-right: 100px;
+  width: 150px;
+  display: inline;
+  height: 40px;
+}
+.gender{
+  text-align: right;
+  display: inline-block;
+  height: 50px;
+}
+button{
+  height: 50px;
+  font-size: 17px;
+  width: 100px;
+  color: rgb(8, 96, 96);
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(8, 96, 96);
+  background-color:azure;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s,
+  color 0.2s, border-color 0.2s;
+}
+button:hover {
+  background-color: rgb(18, 141, 141);
+  color: azure;
+  border-color: azure;
+}
+option{
+  height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: azure;
+}
