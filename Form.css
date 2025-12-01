@@ -1,94 +1,108 @@
-.all{
-margin: auto;
-width: 70%;
+body {
+  background-color: #f5fafa;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 40px 0;
 }
-.mini{
+
+.all {
   margin: auto;
-width: 50%;
-width: 500px;
-background-color: aliceblue;
-padding-top: 40px;
-padding-bottom: 40px;
-padding-left: 30px;
-padding-right: 30px;
-border-radius: 20px;
-height: 400px;
+  width: 70%;
+  max-width: 800px;
+  text-align: center;
 }
-input{
-  display: block;
-  height: 25px;
-  width: 300px;
-  border-radius:10px ;
-  border-width: 1px;
-  border-style: solid;
-  padding-left: 20px;
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-color: rgb(8, 96, 96);
-  
-}
-.input:hover{
-  border: none;
-  background-color: grey;
-}
-p{
-  font-family: "Montserrat";
-}
-label{
-  font-family:"Montserrat";
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-span{
-  font-family:"Montserrat";
-}
-.title, .heading{
-  font-size: 40px;
+
+.title, .heading {
+  font-size: 38px;
   color: rgb(8, 96, 96);
-  margin-bottom: 0px;
-  font: "Montserrat";
-  margin: auto;
-  width: 90%;
+  margin-bottom: 8px;
+  font-weight: 700;
 }
-.bio{
+
+.bio {
   font-size: 14px;
   font-style: italic;
+  color: #555;
+  margin-top: 5px;
+}
+
+.mini {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 500px;
+  background-color: #e8f7ff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
   text-align: left;
-  margin-top: 8px;
 }
-.T_H{
-  margin-right: 100px;
-  width: 150px;
-  display: inline;
+
+input,
+select {
   height: 40px;
-}
-.gender{
-  text-align: right;
-  display: inline-block;
-  height: 50px;
-}
-button{
-  height: 50px;
-  font-size: 17px;
-  width: 100px;
-  color: rgb(8, 96, 96);
-  border-width: 2px;
+  width: 100%;
+  max-width: 350px;
   border-radius: 8px;
-  border-style: solid;
-  border-color: rgb(8, 96, 96);
-  background-color:azure;
-  margin-right: 20px;
-  cursor: pointer;
-  transition: background-color 0.2s,
-  color 0.2s, border-color 0.2s;
+  border: 1px solid rgb(8, 96, 96);
+  padding-left: 12px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
 }
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+  border-color: rgb(18, 141, 141);
+  background-color: #f1ffff;
+  outline: none;
+}
+
+.T_H, .gender {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.T_H select,
+.gender select {
+  width: 100%;
+  max-width: 350px;
+}
+
+button {
+  height: 45px;
+  width: 120px;
+  font-size: 16px;
+  color: rgb(8, 96, 96);
+  border: 2px solid rgb(8, 96, 96);
+  border-radius: 8px;
+  background-color: azure;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
 button:hover {
   background-color: rgb(18, 141, 141);
-  color: azure;
-  border-color: azure;
+  color: white;
+  border-color: transparent;
 }
-option{
-  height: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: azure;
+
+@media (max-width: 600px) {
+  .mini {
+    width: 95%;
+    padding: 25px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
